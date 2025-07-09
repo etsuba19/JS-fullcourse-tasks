@@ -42,3 +42,8 @@ const toCounter = document.getElementById("toCounter");
 toCounter.onclick = function(){
   window.location.href = "counter.html";
 }
+
+const toRandom = document.getElementById("toRandom");
+toRandom.onclick = function(){
+  window.location.href = "random.html"
+}
